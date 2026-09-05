@@ -1,4 +1,1 @@
-h = float(input('Digite a altura da parede em metros: '))
-w = float(input('Digite a lagura da parede em metros: '))
-t = h * w / 2
-print('A quantidade de tinta necesaria para pintar uma parde de {}m de altura e {}m de largura é {} baldes'.format(h,w, t))
+
