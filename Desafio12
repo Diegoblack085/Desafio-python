@@ -1,0 +1,3 @@
+p = (float(input('Digite o preço do prodouto: ')))
+d = float(p * 0.95)
+print('O preço era {:.1f}R$ com desconto ficou {:.1f}R$'.format(p, d))
