@@ -1,1 +1,3 @@
-
+r  = float(input('Digite o seu saldo em reais: '))
+d = float(r / 3.27)
+print('O seu saldo em reais é {} reais  o tanto de dolares seria {:.1f} dolares'.format(r, d))
