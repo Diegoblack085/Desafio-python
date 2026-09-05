@@ -1,0 +1,6 @@
+#criar um programa que lia dois numero e some eles
+
+n1 = int(input('Digite o 1o valor: '))
+n2 = int(input('Digite o 2o valor: '))
+s = n1 + n2
+print('O valor da soma entre {} e {} vale {}'.format(n1,n2,s))
