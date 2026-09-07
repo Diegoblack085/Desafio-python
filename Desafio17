@@ -1,0 +1,6 @@
+from math import pow
+a = float(input('Digite o Cateto Oposto: '))
+b = float(input('Digite o Cateto Adjacente: '))
+s = (pow(a,2)) + (pow(b,2))
+c = s ** (1/2)
+print('A hipotenusa é {}'.format(c))
