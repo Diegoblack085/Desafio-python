@@ -1,0 +1,8 @@
+import random
+al1 = input('Qual o nome do 1° aluno: ')
+al2 = input('Qual o nome do 2° aluno: ')
+al3 = input('Qual o nome do 3° aluno: ')
+al4 = input('Qual o nome do 4° aluno: ')
+n = [al1, al2, al3, al4]
+ale = random.choice(n)
+print('O aluno sortado para apagar o quadro foi o aluno {} parabéns!'.format(ale))
