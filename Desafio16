@@ -1,4 +1,4 @@
-from math import floor
+from math import trunc
 num = float(input('Digite um numero: '))
 print('O numero digitado foi {} e ele inteiro fica {:.0f}'.format(num,num))
-print('O numero digitado foi {} e ele intereiro é {}'.format(num,floor(num)))
+print('O numero digitado foi {} e ele intereiro é {}'.format(num,trunc(num)))
