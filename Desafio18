@@ -1,3 +1,6 @@
-from math import sin, cos, tan
-n = float(input('Digite um grau: '))
-print('O grau digitado foi {:.2f} o Seno é {:.2f} o Cos é {:.2f} e a tangetne è {:.2f}'.format(n,sin(n),cos(n),tan(n)))
+import math
+angulo = float(input('Digite um grau: '))
+seno = math.sin(math.radians(angulo))
+cos = math.cos(math.radians(angulo))
+tag = math.tan(math.radians(angulo))
+print('O grau digitado foi {:.2f} o Seno é {:.2f} o Cos é {:.2f} e a tangente è {:.2f}'.format(angulo, seno, cos, tag))
