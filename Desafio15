@@ -1,0 +1,7 @@
+d = int(input('Quantos dias foi alugado? '))
+kmr = int(input('Quantos km foram rodados? '))
+dp = float(d * 60)
+kmp = float(kmr * 0.15)
+print('O total de km rodados foi {} e o preço a ser pago pelos kms são {}'.format(kmr,kmp))
+print('O total a ser pago pelos {} dias são {}'.format(d,dp))
+print('E o total é {}'.format(dp + kmp))
