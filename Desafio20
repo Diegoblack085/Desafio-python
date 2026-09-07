@@ -1,0 +1,11 @@
+from random import shuffle
+n1 = input('Digite o nome do 1° aluno: ')
+n2 = input('Digite o nome do 2° aluno: ')
+n3 = input('Digite o nome do 3° aluno: ')
+n4 = input('Digite o nome do 4° aluno: ')
+lista = [n1, n2, n3, n4]
+shuffle(lista)
+# random.shuffle é usado para embaralhar um lista
+# criamos uma lista com [] por exempolo lista = [x1, x2, x3]]
+print('A ordem de apresentação será ')
+print(lista)
