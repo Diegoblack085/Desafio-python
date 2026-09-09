@@ -1,0 +1,4 @@
+frase = str(input('digite uma frase: '))
+print('O total de vezes que A aparece é: ',frase.upper().count('A'))
+print('A primeira vez que ele aparece é na posição: ',frase.upper().find('A'))
+print('A ultima vez que o A apareceu foi: ',frase.upper().rfind('A'))
