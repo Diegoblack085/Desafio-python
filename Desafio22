@@ -1,0 +1,5 @@
+n = input('Digite seu nome completo: ')
+print('O nome em maiusculo fica: ',n.upper())
+print('O nome em minusculo fica: ',n.lower())
+print('Mostrar o numero de letras do 1° nome: ',len(n.split(n)[0][0:]))
+print('O total de letras sem espaço é: ', len(n.split()[0][0:] + n.split()[1][0:]+ n.split()[2][0:]+ n.split()[3][0:]))
