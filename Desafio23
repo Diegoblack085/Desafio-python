@@ -1,0 +1,5 @@
+n = (input('Digite um numero de 0 a 9999: '))
+print('A quantidade de unidades é: ',(n[3:]))
+print('A quantidade de dezena é: ',(n[2]))
+print('A quantidade de centena é: ',(n[1]))
+print('A quantidade de milhar é: ',(n[0]))
