@@ -1,0 +1,2 @@
+cidade = str(input('Digite sua cidade: '))
+print('Se tiver Santo retorna (True = Sim) senão (False = Não): ','Santo' in cidade[0:5])
