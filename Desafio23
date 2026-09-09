@@ -3,3 +3,13 @@ print('A quantidade de unidades é: ',(n[3:]))
 print('A quantidade de dezena é: ',(n[2]))
 print('A quantidade de centena é: ',(n[1]))
 print('A quantidade de milhar é: ',(n[0]))
+
+num = int(input('Digite um numero de 0 a 9999: '))
+u = num // 1 % 10
+d = num // 10 % 10
+c = num // 100 % 10
+m = num // 1000 % 10
+print('A quantidade de unidades é: ',u)
+print('A quantidade de dezena é: ',d)
+print('A quantidade de centena é: ',c)
+print('A quantidade de milhar é: ',m)
