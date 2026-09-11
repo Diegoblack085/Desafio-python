@@ -1,0 +1,6 @@
+velo = float(input('Digite sua velocidade: ').strip())
+dif = float((velo - 80) * 7)
+if velo > 80:
+    print('Você exedeu a velocidade de 80km você deve pagar de multa R${}!'.format(dif))
+else:
+    print('Você estya no limite permitido!')
