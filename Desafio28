@@ -1,0 +1,7 @@
+import random
+computer = random.randint(0,5)
+user = int(input('Digite um numero de 0 a 5: ').strip())
+if user == computer:
+    print('Você acertou parabéns!')
+else:
+    print('Você errou, tente de nono!')
