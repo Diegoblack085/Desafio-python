@@ -1,12 +1,16 @@
 l1  = int(input('Digite o primeiro lado: ').strip())
 l2 = int(input('Digite o segundo lado: ').strip())
 l3 = int(input('Digite o terceiro lado: ').strip())
+r = int(l3)
 menor1 = l1
 menor2 = l2
 if l3 < menor1:
     menor1 = l3
+    r = l1
 elif l3 < menor2:
     menor2 = l3
+if r < l2:
+    menor2 = r
 if menor1 < menor2:
     print('O menor valor é {} e o segundo menor é {}'.format(menor1,menor2))
 else:
