@@ -1,0 +1,7 @@
+dist = float(input('Digite a distância da viagem em (km): ').strip())
+if dist <= 200:
+    v = dist * 0.50
+    print('O valor total ficou {}'.format(v))
+else:
+    v = dist * 0.45
+    print('O valor total ficou {}'.format(v))
