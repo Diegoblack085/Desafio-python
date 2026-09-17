@@ -35,3 +35,12 @@ else:
     print('Não pode ser um triangulo!')
 
 print('O menor valor é {} e o segundo menor é {}'.format(menor1,menor2))
+
+if menor1 + menor2 > maior:
+    print('Pode ser um triangulo!')
+else:
+    print('Não pode ser um triangulo!')
+if l1 < l2 + l3 and l2 <l3 +l1 and l3 < l2 + l1:
+    print('Pode ser um triangulo!')
+else:
+    print('Não pode ser um triangulo!')
