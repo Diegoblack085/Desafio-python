@@ -56,6 +56,18 @@ if n3 > n2:
     m3 = n3
 print('O maior numero é {:.0f} o segundo é {:.0f} e o terceiro é {:.0f}'.format(m1, m2, m3))
 
-
-
-
+a = int(input('Digite o 1° numero: ').strip())
+b = int(input('Digite o 2° numero: ').strip())
+c = int(input('Digite o 3° numero: ').strip())
+menor = a
+if b < a and b < c:
+    menor = b
+if c < a and c < b:
+    menor = c
+print(f'o menor valor digitado foi {menor}')
+maior = a
+if b > a and b > c:
+    maior = b
+if c > a and c > b:
+    maior = c
+print(f'O maior valor digitado foi {maior}')
