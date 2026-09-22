@@ -1,0 +1,25 @@
+from  random import randint
+print('Bem vindo ao Pedra,Papel e tesoura!!')
+print('[1] Pedra')
+print('[2] Papel')
+print('[3] Tesoura')
+comp = str(randint(1,3))
+pedra = '0'
+tesoura = '1'
+papel = '2'
+player  = str(input('Digite sua escolha: '))
+if comp == player:
+    print('O resultador foi empate!')
+elif comp == pedra and player == tesoura:
+    print('O computador ganhou!')
+elif comp == pedra and player == papel:
+    print('O jogador ganhou!')
+elif comp == tesoura and player == papel:
+    print('O computador ganhou!')
+elif comp == tesoura and player == pedra:
+    print('O jogador ganhou!')
+elif comp == papel and player == pedra:
+    print('O computador ganhou!')
+else:
+    print('O jogador ganhou!')
+print(f'A escolha do computador foi {comp} e a sua foi {player}')
