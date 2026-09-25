@@ -1,0 +1,8 @@
+valor_casa = float(input('Digite o valor da casa: ').strip())
+salario = float(input('Digite seu salario: '))
+anos_parcelas = int(input('Digite a quantidades de anos: '))
+par = valor_casa / (anos_parcelas * 12)
+if par <= salario * 0.30:
+    print('Seu emprestimo foi aprovado!!')
+else:
+    print('Seu emprestimo foi negado!!')
