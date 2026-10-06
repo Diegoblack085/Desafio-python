@@ -1,0 +1,16 @@
+preco = float(input('Digite o preço do produto: '))
+print('Fomas de pagamentos')
+print('[1] Dinheiro/Cheque')
+print('[2] Cartão Débito')
+print('[3] Cartão de Crédito')
+pagamento = str(input('Digite a forma de pagamento: ').upper())
+if pagamento == '1':
+    print(f'O valor era {preco}R$ e com desconte de 10% fica {preco * 0.90}R$')
+elif pagamento == '2':
+    print(f'O preço era {preco}R$ com desconto de 5% fica {preco * 0.95}R$')
+elif pagamento == '3':
+    p = int(input('Em quanto vezes será parcelado: '))
+    if p <= 2:
+        print(f'O valor fica o mesmo {preco}R$ em {p} parcelas de {preco / p}R$')
+    elif p > 2:
+        print(f'O preço era {preco} parcelado em {p} tera juros de 20% e ficara {preco * 1.20} e parcelado fica {(preco * 1.20) / p}RS')
