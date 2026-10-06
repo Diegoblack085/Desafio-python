@@ -11,8 +11,9 @@ elif player == 'PAPEL':
     player = 2
 elif player == 'TESOURA':
     player = 3
-else:
-    print('Não tem essa opção!')
+elif player != 'PAPEL' and player != 'TESOURA' and player != 'PEDRA':
+    player = 0
+    print('Não tem essa opção, tente de novo!')
 
 if choices[player] == choices[comp]:
     print(f'Empate os dois escolheram {choices[comp]}')
