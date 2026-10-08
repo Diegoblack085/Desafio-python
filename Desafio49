@@ -1,0 +1,8 @@
+print('=='*20)
+print('               TABUADA')
+print('=='*20)
+tabuada = int(input('Digite até onde vai a tabuada: '))
+n = int(input('Digite o numero: '))
+for c in range(0,tabuada+1):
+    d = n * c
+    print(f'{n} * {c} = {d}')
