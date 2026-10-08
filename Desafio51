@@ -1,0 +1,4 @@
+pa = int(input('Digite a progressão: '))
+p = int(input('Digite o começo: '))
+for c in range(p,20,pa):
+    print(c)
