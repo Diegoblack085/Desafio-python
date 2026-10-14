@@ -1,0 +1,18 @@
+n = int(input('Digite um numero: '))
+div = 0
+if n ==2:
+    print('Esse é o UNICO PRIMO PAR')
+    quit()
+for c in range(n,0,-1):
+    if c == 0:
+        c = c + 1
+    if n / c == 0:
+        div = div + 1
+    elif div > 2:
+        print('Esse numero é PRIMO')
+        print(n)
+        print(div)
+    elif div <= 2:
+        print('Esse numero É PRIMO')
+        print(div)
+        print(n)
