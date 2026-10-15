@@ -1,0 +1,11 @@
+peso = 10000000
+maior = 0
+menor = 10000000
+for c in range (0,5):
+    peso = float(input('Digite o seu peso: '))
+    if peso > maior:
+        maior = peso
+    elif peso < menor:
+        menor = peso
+print('O menor foi o {}'.format(menor))
+print('O maior foi o {}'.format(maior))
